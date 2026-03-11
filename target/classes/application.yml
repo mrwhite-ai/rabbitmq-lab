@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: rabbitmq-lab
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.rabbitmqlab: INFO
