@@ -1,7 +1,7 @@
 # RabbitMQ Lab
 
 Production-oriented messaging demo built with Spring Boot and RabbitMQ.  
-This project showcases asynchronous communication patterns commonly used in backend systems and is designed as a portfolio project for job applications.
+This project showcases asynchronous communication patterns commonly used in backend systems.
 
 ## Why this project
 
@@ -32,7 +32,7 @@ This lab demonstrates how to design and operate a resilient message-driven workf
 4. One consumer processes each message.
 5. On failure, listener retries; after max attempts, message is moved to DLQ.
 
-## What recruiters can evaluate here
+## Key capabilities demonstrated
 
 - Understanding of asynchronous system design
 - Messaging reliability patterns (retry, DLQ, durability)
