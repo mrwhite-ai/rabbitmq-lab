@@ -42,12 +42,6 @@ This lab demonstrates how to design and operate a resilient message-driven workf
 
 ## Quick Start
 
-### Prerequisites
-
-- JDK 21
-- Maven 3.9+
-- Docker + Docker Compose
-
 ### Run locally
 
 ```bash
